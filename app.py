@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
-# import constants
-# api_key = constant
+import constants
+api_key = constants.key
 
 movies_dict = pickle.load(open('movies_dict.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl','rb'))
