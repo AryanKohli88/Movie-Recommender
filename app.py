@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
-import constants
+# import constants
 api_key = constants.key
 
 movies_dict = pickle.load(open('movies_dict.pkl', 'rb'))
