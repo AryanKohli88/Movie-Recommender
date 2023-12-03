@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import requests
 # import constants
-api_key = constants.key
+# api_key = constant
 
 movies_dict = pickle.load(open('movies_dict.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl','rb'))
