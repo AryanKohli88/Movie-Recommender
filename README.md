@@ -7,3 +7,7 @@ streamlit run app.py
 {
     Make sure where ever streamlit is installed in env. variable PATHs.
 }
+
+# Note
+
+Due to large size of similarity.pkl, git lfs is used to push it.
